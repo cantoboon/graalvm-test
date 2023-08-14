@@ -7,7 +7,7 @@ This project tests out building a simple CLI application with GraalVM.
 - https://graalvm.github.io/native-build-tools/latest/gradle-plugin.html
 - https://graalvm.github.io/native-build-tools/latest/gradle-plugin-quickstart.html
 
-## Comparison with Benchmark
+## Comparison with Python
 
 We have a very simple [hello.py](hello.py) that prints "Hello world".
 The [bench.sh](bench.sh) script runs the GraalVM generated native executable and the `hello.py` script 1000 times.
